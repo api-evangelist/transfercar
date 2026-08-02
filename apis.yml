@@ -1,19 +1,50 @@
 aid: transfercar
 name: Transfercar
-description: Transfercar is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Transfercar is a free vehicle relocation marketplace that connects rental
+  car and motorhome companies who need vehicles moved between their depots
+  with travelers willing to drive those vehicles one-way. Rental operators
+  list relocation deals for cars and campervans that need to be repositioned,
+  and drivers book them to travel between cities at little or no rental cost,
+  often with extras such as free days, fuel allowances, or ferry contributions.
+  The service operates across New Zealand, Australia, and the United States as
+  a consumer-facing web booking platform rather than a developer API provider.
+  Transfercar was surfaced as a portfolio company of 500 Global and added to
+  the API Evangelist network; this profile has been enriched from its public
+  web surface.
 url: https://raw.githubusercontent.com/api-evangelist/transfercar/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - 500-global
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profiled
+x-tier-reason: consumer-marketplace-no-public-api
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://www.transfercar.co.za/website-template-OG.webp
 tags:
 - Company
+- Travel
+- Car Rental
+- Vehicle Relocation
+- Motorhome
+- Campervan
+- Marketplace
+- Mobility
+- New Zealand
+- Australia
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +53,23 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://transfercar.co.nz
+  url: https://www.transfercar.co.nz
+- type: About
+  url: https://www.transfercar.co.nz/about-us
+- type: Support
+  url: https://www.transfercar.co.nz/contact
+- type: TermsOfService
+  url: https://www.transfercar.co.nz/terms
+- type: PrivacyPolicy
+  url: https://www.transfercar.co.nz/privacy
+- type: Security
+  url: security/transfercar-vulnerability-disclosure.yml
+- type: VulnerabilityDisclosure
+  url: security/transfercar-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/transfercar-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
